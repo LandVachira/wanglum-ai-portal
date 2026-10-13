@@ -7,7 +7,7 @@ export default function NewsSection() {
   const [loading, setLoading] = useState(true);
 
   // URL API ตัวเดิมของคุณ
-  const API_URL = "https://script.google.com/macros/s/AKfycbxna-k9dwhgB6Yr9HoR_nG1ioI62f6mqXplzLEbDXzu-zftSZW34PnvoVyIM_VyRQcJ/exec?action=news";
+  const API_URL = "https://script.google.com/macros/s/AKfycbyRAL9ZNciTX2WDiKzMwMSFTnNUcDdHRiA6_LWok4iYqXmf6Zzjxf4zxQRvQZzvm77L/exec?action=news";
 
   useEffect(() => {
     fetch(API_URL)

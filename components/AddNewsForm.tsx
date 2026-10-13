@@ -10,7 +10,7 @@ export default function AddNewsForm() {
   const [message, setMessage] = useState('');
 
   // URL API ตัวเดิมของคุณ (ใช้ตัวเดียวกับตอนดึงข้อมูล)
-  const API_URL = "https://script.google.com/macros/s/AKfycbxna-k9dwhgB6Yr9HoR_nG1ioI62f6mqXplzLEbDXzu-zftSZW34PnvoVyIM_VyRQcJ/exec";
+  const API_URL = "https://script.google.com/macros/s/AKfycbyRAL9ZNciTX2WDiKzMwMSFTnNUcDdHRiA6_LWok4iYqXmf6Zzjxf4zxQRvQZzvm77L/exec";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
