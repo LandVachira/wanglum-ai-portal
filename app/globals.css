@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* กำหนดสีหลักของโรงเรียนชุมชนวังหลุมวิทยาคาร */
+  --color-brand-navy: #0F172A;
+  --color-brand-burgundy: #800020;
+  --color-brand-gold: #FFD700;
+  --color-brand-glass: rgba(255, 255, 255, 0.05);
+  /* กำหนดให้ใช้ฟอนต์ Kanit เป็นหลัก */
+  --font-sans: var(--font-kanit), ui-sans-serif, system-ui, sans-serif;
+}
